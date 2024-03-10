@@ -1,0 +1,32 @@
+<h2>Question:-1</h2>
+
+<h1>{{ pageTitle }}</h1>
+<h2>{{ a + b }}</h2>
+<h3>{{ a + b + 10 }}</h3>
+
+<hr> <hr>
+
+<h2>Question:-2</h2>
+
+
+<img [src]="imageUrl" [attr.disabled]="disable ? 'disabled' : null">
+<button (click)="toggleChange()">Toggle Disable</button>
+
+
+<hr><hr>
+<h2>Question:-3</h2>
+
+<button (click)="handleButtonClick()">Click Me</button>
+
+<hr><hr>
+<h2>Question-4</h2>
+
+<p>{{ username }}</p>
+
+<hr><hr>
+<h2>Question:-5</h2>
+
+<p [style.color]="!isError ? 'red' : 'green'">Conditional Styling</p>
+
+
+
